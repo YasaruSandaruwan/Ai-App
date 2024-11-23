@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "backend"
+version = "0.1.0"
+description = ""
+authors = ["Yasaru Sandaruwan <y.s.dharmadasa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.115.5"
+uvicorn = "^0.32.0"
+google-generativeai = "^0.8.3"
+langchain = "^0.3.7"
+qdrant-client = "^1.12.1"
+python-decouple = "^3.8"
+langchain-community = "^0.3.7"
+langchain-google-genai = "^2.0.4"
+langchain-qdrant = "^0.2.0"
+beautifulsoup4 = "^4.12.3"
+modal = "^0.66.4"
+genai = "^2.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
